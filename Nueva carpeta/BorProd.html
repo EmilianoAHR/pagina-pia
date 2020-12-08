@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Prod.css">
+</head>
+<body>
+<div id="menud">
+<ul>
+<li id="menud"><a href="http://localhost:8080/Proyectos/ConsProd.php">Consultar</a></li>
+<li id="menud"><a href="http://localhost:8080/Proyectos/InsProd.html">Insertar</a></li>
+<li id="menud"><a href="http://localhost:8080/Proyectos/BorProd.html">Borrar</a></li>
+<li id="menud"><a href="http://localhost:8080/Proyectos/ActProd.php">Actualizar</a></li>
+<li id="menud"><a href="http://localhost:8080/Proyectos/Ses.php">Salir</a></li>
+</ul>
+</div>
+<div class="Formu">
+<form id="formulario" name="formulario" method="post" action="BorProd.php">
+<br>
+<br>
+<br>
+<br>
+<label for="id_cliente">Id_Producto: </label>
+<input type="text" id="id_producto" name="id_producto" placeholder="Inserte el ID a eliminar">
+<br>
+<br>
+<input type="submit" id="eliminar" value="Eliminar Datos">
+<input type="reset" id="borrar" value="Limpiar">
+<br>
+<br>
+<img src="https://reygif.com/media/goma-borrar-kawaii-65320.gif">
+</form>
+</div>
+<input type ="checkbox" class="checkbox" id="check">
+<label class="menu" for="check">|||</label>
+<div class="left-panel">
+<ul>
+<a href="http://localhost:8080/Proyectos/Inicio.php"><li>Inicio</li></a>
+<a href="http://localhost:8080/Proyectos/ConsCli.php"><li>Clientes</li></a>
+<a href="http://localhost:8080/Proyectos/ConsVen.php"><li>Ventas</li></a>
+</ul>
+</div>
+</body>
+</html>

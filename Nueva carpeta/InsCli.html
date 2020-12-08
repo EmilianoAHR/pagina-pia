@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="InsCli.css">
+</head>
+<body>
+<div id="menud">
+<ul>
+<li id="menud"><a href="http://localhost:8080/Proyectos/ConsCli.php">Consultar</a></li>
+<li id="menud"><a href="http://localhost:8080/Proyectos/InsCli.html">Insertar</a></li>
+<li id="menud"><a href="http://localhost:8080/Proyectos/BorCli.html">Borrar</a></li>
+<li id="menud"><a href="http://localhost:8080/Proyectos/ActCli.php">Actualizar</a></li>
+<li id="menud"><a href="http://localhost:8080/Proyectos/Ses.php">Salir</a></li>
+</ul>
+</div>
+<div class="Formu">
+<form id="formulario" name="formulario" method="post" action="InsCli.php">
+<br>
+<br>
+<br>
+<br>
+<label for="id_cliente">Id_Cliente: </label>
+<input type="text" id="id_cliente" name="id_cliente" placeholder="Inserte su ID">
+<br>
+<br>
+<label for="nombre">Nombre: </label>
+<input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre">
+<br>
+<br>
+<label for="telefono">Telefono: </label>
+<input type="text" id="telefono" name="telefono" placeholder="Digite su telefono">
+<br>
+<br>
+<label for="tipo_pago">Tipo_Pago: </label>
+<input type="text" id="tipo_pago" name="tipo_pago" placeholder="Inserte su tipo de pago">
+<br>
+<br>
+<label for="id_venta">Id_Venta: </label>
+<input type="text" id="id_venta" name="id_venta" placeholder="Inserte su ID de venta">
+<br>
+<br>
+<input type="submit" id="enviar" value="Enviar">
+<input type="reset" id="borrar" value="Limpiar">
+</form>
+</div>
+<input type ="checkbox" class="checkbox" id="check">
+<label class="menu" for="check">|||</label>
+<div class="left-panel">
+<ul>
+<a href="http://localhost:8080/Proyectos/Inicio.php"><li>Inicio</li></a>
+<a href="http://localhost:8080/Proyectos/ConsProd.php"><li>Productos</li></a>
+<a href="http://localhost:8080/Proyectos/ConsVen.php"><li>Ventas</li></a>
+</ul>
+</div>
+</body>
+</html>

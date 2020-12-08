@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Prod.css">
+</head>
+<body>
+<div id="menud">
+<ul>
+<li id="menud"><a href="http://localhost:8080/Proyectos/ConsProd.php">Consultar</a></li>
+<li id="menud"><a href="http://localhost:8080/Proyectos/InsProd.html">Insertar</a></li>
+<li id="menud"><a href="http://localhost:8080/Proyectos/BorProd.html">Borrar</a></li>
+<li id="menud"><a href="http://localhost:8080/Proyectos/ActProd.php">Actualizar</a></li>
+<li id="menud"><a href="http://localhost:8080/Proyectos/Ses.php">Salir</a></li>
+</ul>
+</div>
+<div class="Formu">
+<form id="formulario" name="formulario" method="post" action="InsProd.php">
+<br>
+<br>
+<br>
+<br>
+<label for="id_producto">Id_Producto: </label>
+<input type="text" id="id_producto" name="id_producto" placeholder="Inserte el ID del producto">
+<br>
+<br>
+<label for="descripcion">Descripcion: </label>
+<input type="text" id="descripcion" name="descripcion" placeholder="Escriba la descripcion">
+<br>
+<br>
+<label for="precio">Precio: </label>
+<input type="text" id="precio" name="precio" placeholder="Digite el precio">
+<br>
+<br>
+<label for="iva">IVA: </label>
+<input type="text" id="iva" name="iva" placeholder="Inserte El IVA">
+<br>
+<br>
+<label for="categoria">Categoria: </label>
+<input type="text" id="categoria" name="categoria" placeholder="Escriba la categoria">
+<br>
+<br>
+<input type="submit" id="enviar" value="Enviar">
+<input type="reset" id="borrar" value="Limpiar">
+</form>
+</div>
+<input type ="checkbox" class="checkbox" id="check">
+<label class="menu" for="check">|||</label>
+<div class="left-panel">
+<ul>
+<a href="http://localhost:8080/Proyectos/Inicio.php"><li>Inicio</li></a>
+<a href="http://localhost:8080/Proyectos/ConsCli.php"><li>Clientes</li></a>
+<a href="http://localhost:8080/Proyectos/ConsVen.php"><li>Ventas</li></a>
+</ul>
+</div>
+</body>
+</html>

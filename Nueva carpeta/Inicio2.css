@@ -1,0 +1,129 @@
+html {
+font-size: 16px;
+}
+
+.menu {
+width: 2.2rem;
+height: 2.7rem;
+background: #000000;
+border-radius: 0.5rem;
+position: absolute;
+top: 50%;
+left: 5%;
+font-family: sans-serif;
+font-size: 2rem;
+color: white;
+text-align: center;
+transition: left 0.5s;
+}
+
+.checkbox:checked ~ .menu {
+left: 20%;
+border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.left-panel {
+width: 20%;
+height: 100%;
+background:  -webkit-linear-gradient(#000000, #000000, #FFFFFF);
+position: absolute;
+top: 0;
+left: -40%;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: left 0.4s;
+}
+
+.checkbox:checked ~ .left-panel {
+left: 0;
+}
+
+.checkbox {
+display: none; 
+}
+
+ul a {
+color: #F7F7F7;
+text-decoration: none;
+}
+
+li {
+list-style: none;
+font-size: 2rem;
+text-align: center;
+padding: 0 0.5rem;
+margin: 1rem 0;
+}
+
+li:hover {
+color: white;
+border: solid white;
+border-width: 0 0.1rem;
+}
+body {
+background-image: url("https://www.instoreview.com/hubfs/supermercado%20automatizado.jpg");
+background-size: cover;
+}
+.titulo{
+text-align: right;
+font-family: Lobster;
+font-size: 30px;
+color: #FFFFFF;
+background:  -webkit-linear-gradient(#FFFFFF, #000000, #FFFFFF);
+}
+.texto{
+text-align: center;
+font-family: Arial black;
+font-size: 26px;
+color: #FFFFFF;
+background: #000000;
+opacity: 0.9;
+}
+.verduras{
+width: 250px;
+height: 250px;
+border-style: solid;
+border-width: 10px;
+border-color: #FFFFFF;
+border-radius: 25px;
+padding: 10px;
+background:  -webkit-radial-gradient(#000000, #000000, #000000);
+}
+.enlatados{
+width: 250px;
+height: 250px;
+border-style: solid;
+border-width: 10px;
+border-color: #FFFFFF;
+border-radius: 25px;
+padding: 10px;
+background:  -webkit-radial-gradient(#000000, #000000, #000000);
+
+}
+.aseo{
+width: 250px;
+height: 250px;
+border-style: solid;
+border-width: 10px;
+border-color: #FFFFFF;
+border-radius: 25px;
+padding: 10px;
+background:  -webkit-radial-gradient(#000000, #000000, #000000);
+}
+a { 
+color: #FFFFFF; 
+}
+.texto2{
+font-family: Arial black;
+font-size: 24px;
+color: #FFFFFF;
+background: #000000;
+}
+.texto3{
+font-family: Times New Roman black;
+font-size: 15px;
+color: #000000;
+background: #FFFFFF;
+opacity: 0.7;
+}

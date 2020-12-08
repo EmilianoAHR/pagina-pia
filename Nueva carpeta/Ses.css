@@ -1,0 +1,51 @@
+body{
+Color:#000000;
+background-image: url("https://thelogisticsworld.com/wp-content/uploads/2020/07/hugoMarket.jpg");
+background-size: cover;
+font-family: Arial Black;
+font-size: 20px;
+text-align: center;
+}
+
+.Formu1{
+width: 100%;       
+height: 680px;
+position: absolute;
+top:25%;
+left: 6.7%;           
+margin-top: -100px;
+margin-left: -100px;
+opacity: 0.7;
+background-color: #000000;
+
+}
+.Formu2{
+background:  -webkit-linear-gradient( #880088, #FFFFFF, #880088);
+width: 400px;       
+height: 600px;
+position: absolute;
+top:28%;
+left: 43%;           
+margin-top: -100px;
+margin-left: -100px;
+border-style: solid;
+border-width: 10px;
+border-color: #FFFFFF;
+border-radius: 25px;
+}
+.btn{
+background:  -webkit-radial-gradient( #FFFFFF, #FFFFFF, #880088);
+-webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+
+font-family: Arial;
+  color: #880088;
+  font-size: 27px;
+  padding: 19px;
+  text-decoration: none;
+
+-webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+}

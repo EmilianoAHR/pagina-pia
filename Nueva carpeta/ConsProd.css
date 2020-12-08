@@ -1,0 +1,110 @@
+body{
+Color:#000000;
+background-image: url("https://estaticos.qdq.com/swdata/home_photos/686/686209217/b261e641a22f44a092d740e1d5d94b63.jpg");
+background-size: cover;
+font-family: Arial Black;
+font-size: 20px;
+text-align: center;
+}
+#menud{
+background-color: #88CC00;
+font-family: Arial Black;
+}
+#menud ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#menud ul li{
+display: inline-block;
+}
+#menud ul li a{
+color: white;
+display: block;
+padding: 5px 50px;
+text-decoration: none;
+}
+#menud ul li a:hover{
+background:  -webkit-radial-gradient( #FFFFFF, #FFFFFF, #88CC00);
+color: #88CC00;
+}
+table {
+border-color: #000000;
+margin: auto;
+}
+th{
+background:  -webkit-radial-gradient( #FFFFFF, #FFFFFF, #88CC00);
+font-family: Broadway;
+font-size: 30px;
+color: #88CC00;
+}
+
+td{
+background:  -webkit-linear-gradient(#AAAAAA, #FFFFFF, #AAAAAA);
+font-family: Arial black;
+font-size: 20px;
+color: #000000;
+}
+html {
+font-size: 16px;
+}
+
+.menu {
+width: 2.2rem;
+height: 2.7rem;
+background: #88CC00;
+border-radius: 0.5rem;
+position: absolute;
+top: 50%;
+left: 5%;
+font-family: sans-serif;
+font-size: 2rem;
+color: white;
+text-align: center;
+transition: left 0.5s;
+}
+
+.checkbox:checked ~ .menu {
+left: 20%;
+border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.left-panel {
+width: 20%;
+height: 100%;
+background:  -webkit-linear-gradient(#FFFFFF, #88CC00, #88CC00);
+position: absolute;
+top: 0;
+left: -40%;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: left 0.4s;
+}
+
+.checkbox:checked ~ .left-panel {
+left: 0;
+}
+
+.checkbox {
+display: none; 
+}
+
+ul a {
+color: #F7F7F7;
+text-decoration: none;
+}
+
+li {
+list-style: none;
+font-size: 2rem;
+text-align: center;
+padding: 0 0.5rem;
+margin: 1rem 0;
+}
+
+li:hover {
+color: white;
+border: solid white;
+border-width: 0 0.1rem;
+}
